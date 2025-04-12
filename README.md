@@ -120,7 +120,19 @@ O notebook com todo o pipeline (extração, transformação, carga e análise) e
 
 ## 🙋‍♀️ Autoavaliação
 
-Durante a execução do projeto, o objetivo principal foi atingido: construir um pipeline funcional em nuvem com modelo analítico estruturado.  
-Dificuldades enfrentadas incluíram:
+Durante a execução do projeto, o objetivo principal foi construir um pipeline de engenharia de dados funcional, aplicar conceitos de transformação com modelo estrela e criar análises de valor com base em dados reais. Com base no trabalho concluído, acredito que os objetivos foram atingidos.
+Entre as principais dificuldades enfrentadas, destacam-se:
+•	Tratamento de dados inconsistentes: as bases exigiram múltiplas limpezas e conversões, especialmente para garantir integridade nas colunas numéricas.
+•	Problemas com schemas e partições: alguns erros no Databricks, como conflitos de schema, exigiram ajustes de configuração e uso de mergeSchema.
+•	União de tabelas complexas: por envolver junções de fontes distintas, foi necessário alinhar nome de colunas e formatos para garantir que as queries funcionassem.
+Apesar das dificuldades, o aprendizado técnico foi enriquecedor, especialmente no uso do PySpark e do Databricks como ferramenta de processamento em larga escala.
+
+## Trabalhos Futuros
+Como sugestões para evolução do projeto:
+•	Adicionar a dimensão temporal ao modelo, para análise de tendências mais apuradas.
+•	Explorar visualizações mais avançadas, com dashboards interativos em Power BI ou Plotly.
+•	Incorporar novas variáveis, como lockdowns, taxa de testagem ou mobilidade populacional.
+•	Utilizar machine learning para prever evolução de casos com base no histórico por país.
+
 
 - **Tratamento de dados inconsistentes**: exigiu limpezas e conversões, especialmente em colunas numéricas. 
